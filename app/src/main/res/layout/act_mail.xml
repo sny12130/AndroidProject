@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorBlack">
+
+        <TextView
+            android:id="@+id/lbl問題回報"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="10dp"
+            android:text="問題回報"
+            android:textColor="@color/colorOrange"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/lbl主旨"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/lbl匿名選擇"
+            android:layout_marginTop="73dp"
+            android:text="主旨"
+            android:textColor="@color/colorWhite"
+            android:textSize="28dp" />
+
+        <EditText
+            android:id="@+id/edit主旨標題"
+            android:layout_width="331dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="128dp"
+            android:background="@color/colorWhite"
+            android:hint="請輸入問題大綱"
+            android:maxLength="20"
+            android:singleLine="true"
+            android:textColor="@color/colorBlack"
+            android:textSize="22dp" />
+
+        <EditText
+            android:id="@+id/edit主旨內容"
+            android:layout_width="334dp"
+            android:layout_height="303dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="177dp"
+            android:background="@color/colorWhite"
+            android:gravity="left|top"
+            android:hint="請輸入詳細內容"
+            android:inputType="textMultiLine"
+            android:maxLength="500"
+            android:textColor="@color/colorBlack"
+            android:textSize="22dp" />
+
+        <Button
+            android:id="@+id/btn問題傳送"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/edit主旨標題"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="13dp"
+            android:backgroundTint="@color/colorBlack"
+            android:text="Send"
+            android:textColor="@color/colorblue"
+            android:textSize="20dp" />
+
+
+        <Button
+            android:id="@+id/btn問題清空"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignTop="@+id/btn問題傳送"
+            android:layout_marginEnd="122dp"
+            android:backgroundTint="@color/colorBlack"
+            android:text="Clear"
+            android:textColor="@color/colorblue"
+            android:textSize="20dp" />
+
+
+        <TextView
+            android:id="@+id/lbl匿名選擇"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/edit主旨內容"
+            android:layout_marginStart="12dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:text="標記寄件者"
+            android:textColor="@color/colorOrange"
+            android:textSize="20dp" />
+
+        <RadioGroup
+            android:id="@+id/radiogroup5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/lbl匿名選擇"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="103dp"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rabtn2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:checked="true"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:text="需要"
+                android:textColor="@color/colorWhite"
+                android:textSize="15dp" />
+
+            <RadioButton
+                android:id="@+id/rabtn3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:text="不用"
+                android:textColor="@color/colorWhite"
+                android:textSize="15dp" />
+        </RadioGroup>
+
+
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/img地圖相片"
+        android:layout_width="330dp"
+        android:layout_height="168dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="5dp"
+                                          />
+
+    <TextView
+        android:id="@+id/lbl地標標題"
+        android:layout_width="326dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img地圖相片"
+        android:layout_alignStart="@+id/lbl地標內文"
+        android:layout_alignTop="@id/img地圖相片"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="173dp"
+        android:ellipsize="end"
+        android:maxEms="15"
+        android:singleLine="true"
+        android:text="測試文字一號devwkrjerfl;kbhjtefl;bkjtgfk;phnmjfprwl;hjnm;tbmklfdnbkl;rfnbkldgnmkwr;lnbhe;fnhvkjfl;hnberfnbp'rf"
+        android:textColor="@color/colorWhite"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/lbl地標內文"
+        android:layout_width="354dp"
+        android:layout_height="60dp"
+        android:layout_alignTop="@id/lbl地標標題"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="28dp"
+        android:ellipsize="end"
+        android:maxEms="10"
+        android:singleLine="true"
+        android:text="內文介紹dcewdcerdcerrvnrfhjbljnetrlikgerkgekldbnrlk;bntglkrbnlkfdnblk;wrnblkerhgnvjkrhvbnjklrhbnvjew;hnvjkl;fnhbvlkjdv"
+        android:textColor="@color/colorWhite"
+        android:textSize="15dp" />
+</RelativeLayout>

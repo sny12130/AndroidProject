@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/imgSelect相片"
+        android:layout_width="198dp"
+        android:layout_height="191dp"
+        android:background="@color/colorBlack"
+        android:src="@drawable/ic_party_" />
+
+    <LinearLayout
+        android:layout_width="172dp"
+        android:layout_height="191dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/lbl尋找姓名"
+            android:layout_width="196dp"
+            android:layout_height="41dp"
+            android:maxEms="15"
+            android:singleLine="true"
+            android:paddingStart="5dp"
+            android:layout_marginTop="5dp"
+            android:text="測試文字一號"
+            android:textColor="@color/colorWhite"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/lbl尋找地區"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxEms="10"
+            android:paddingStart="5dp"
+            android:layout_marginTop="5dp"
+            android:singleLine="true"
+            android:text="內文介紹"
+            android:textColor="@color/colorWhite"
+            android:textSize="20dp" />
+
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_homepage"
+        android:icon="@drawable/home"
+        android:title="HomePage" />
+
+
+
+    <item
+        android:id="@+id/nav_find"
+        android:icon="@drawable/ic_party_"
+        android:title="Search" />
+
+    <item
+        android:id="@+id/nav_map"
+        android:icon="@drawable/map"
+        android:title="Mystery" />
+
+    <item
+        android:id="@+id/nav_chat"
+        android:icon="@drawable/chat"
+        android:title="Chat" />
+
+    <item
+        android:id="@+id/nav_member"
+        android:icon="@drawable/member"
+        android:title="Member" />
+</menu>

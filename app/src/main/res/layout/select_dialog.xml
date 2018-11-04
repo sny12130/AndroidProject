@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="30dp"
+    android:layout_marginRight="30dp"
+    android:layout_gravity="top|right"
+    android:background="@color/colornotBlack">
+
+
+ <TextView
+     android:layout_width="324dp"
+     android:layout_height="wrap_content"
+     android:layout_gravity="center"
+     android:gravity="center"
+     android:paddingTop="10dp"
+     android:paddingBottom="10dp"
+     android:text="Search"
+     android:textColor="@color/colorOrange"
+     android:textSize="20dp"
+     android:background="#281700" />
+
+ <TextView
+     android:text="Photographer &#38;  Model"
+     android:textSize="20dp"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:textColor="@color/colorOrange"
+     android:paddingTop="10dp"
+     android:paddingBottom="10dp"></TextView>
+
+ <RadioGroup
+     android:orientation="horizontal"
+     android:id="@+id/radiogroup_攝影模特"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+
+     >
+
+  <RadioButton
+      android:id="@+id/rabtn_攝影師"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:checked="true"
+      android:text="Photographer"
+      android:textColor="@color/colorWhite"
+      android:textSize="15dp"
+      android:paddingTop="10dp"
+      android:paddingBottom="10dp"
+      />
+
+  <RadioButton
+      android:id="@+id/rabtn_模特爾"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Model"
+      android:textColor="@color/colorWhite"
+      android:textSize="15dp"
+      android:paddingTop="10dp"
+      android:paddingBottom="10dp"
+      />
+ </RadioGroup>
+
+
+ <TextView
+     android:text="Gender"
+     android:textSize="20dp"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:textColor="@color/colorOrange"
+     android:paddingTop="10dp"
+     android:paddingBottom="10dp" />
+
+ <RadioGroup
+     android:orientation="horizontal"
+     android:id="@+id/radiogroup_性別"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+
+     >
+
+  <RadioButton
+      android:id="@+id/rabtn_男生"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:checked="true"
+      android:text="Male"
+      android:textColor="@color/colorWhite"
+      android:textSize="15dp"
+      android:paddingTop="10dp"
+      android:paddingBottom="10dp"
+      />
+
+  <RadioButton
+      android:id="@+id/rabtn_女生"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Female"
+      android:textColor="@color/colorWhite"
+      android:textSize="15dp"
+      android:paddingTop="10dp"
+      android:paddingBottom="10dp"
+      />
+ </RadioGroup>
+
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+ <TextView
+     android:text="Location"
+     android:textSize="20dp"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_gravity="center"
+     android:textColor="@color/colorOrange"
+     android:paddingTop="10dp"
+     android:paddingBottom="10dp"
+     />
+
+ <EditText
+     android:maxLength="10"
+     android:hint="請輸入地區"
+     android:textSize="15dp"
+     android:id="@+id/tb地區"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_gravity="center"
+     android:paddingTop="10dp"
+     android:paddingBottom="10dp"
+     android:textColor="@color/colorWhite"
+     />
+
+</LinearLayout>
+
+
+</LinearLayout>

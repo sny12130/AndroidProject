@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorBlack">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="10dp"
+            android:text="服務條款"
+            android:textColor="@color/colorOrange"
+            android:textSize="30dp" />
+
+        <TextView
+            android:text="PMToBe版權及免責聲明
+以下為 PM To Be (以下稱本網站) 對不同類型的內容的版權聲明：
+\n
+1. 網友上載的檔案、相片、文字等的版權並不屬於本網站，本站也不會為會員上載的任何侵權或違法作品而負上任何責任。本站會員的行為亦不等於本網站的行為。唯本站有權使用網友上載的檔案、相片、文字等作宣傳、推廣。
+\n\n
+2. 本網站對於任何包含於、經由、或聯結、下載或從任何與本網站有關服務 (以下簡稱「服務」) 所獲得之資訊、內容或廣告 (以下簡稱「資料」)，不聲明或保證其內容之正確性或可靠性；並且, 對於您透過「服務」上之廣告、資訊或要約而展示、購買或取得之任何產品、資訊或資料(「產品」)，本網站亦不負品質保證之責任。您於此接受並承認信賴任何「資料」所生之風險應自行承擔。本網站有權但無此義務，改善或更正在「服務」或「資料」任何部分之錯誤或疏失。
+\n\n
+3. 本網站之服務與資料是基於「現況」及「現有」提供，而且 本網站明確地表示拒絕對於「服務」、「資料」或「產品」給予任何明示或暗示之保證, 包括但不限於，得為商業使用或適合於特定目的之保證。
+\n\n
+4. 本網站對於因「服務」、「資料」或「產品」所生之任何直接、間接、附帶的或因此而導致之衍生性損失概不負責。
+\n\n
+5. 本網站鼓勵您於瀏覽網際網路時自行判斷以使用本網站「服務」。本網站或許會導引您至有些人認為是具攻擊性或不適當的文字。
+\n\n
+6. 本網站並不負責檢視本網站中所提供或所列網站之內容，因此, 本網站對於該內容所涉及之正確性、著作權歸屬, 或是其合法性或正當性如何並不負任何責任。
+\n\n
+7. 本網站所提供的所有服務，對於因技術錯誤或資料刪除後的損失, 並不會負上任可責任。
+\n\n
+8. 本網站在適當情況下，得自行決定終止侵害或違反他人權利之使用者的帳號或禁止指定的網際網絡地址進入本網站。如果您認為本站的內容侵犯了版權，請提供足夠的資料寄到 join.boardgame.iii@gmail.com ，本站必會盡快處理。
+\n\n
+Copyright © 2018﹣2019 by PMToBe  All Rights Reserved.
+"
+            android:textSize="18dp"
+            android:textColor="@color/colorWhite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scrollbars="vertical"
+            android:id="@+id/service_scroll"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            />
+
+
+
+    </LinearLayout>
+</LinearLayout>

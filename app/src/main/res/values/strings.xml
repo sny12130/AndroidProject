@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">PM</string>
+    <string name="nav_select" />
+    <string name="nav_selec">互惠</string>
+    <string name="nav_map">秘境</string>
+    <string name="nav_comment">評價</string>
+    <string name="nav_chat">chat</string>
+    <string name="nav_member">member</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_map_google">Map</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="nav_selectp">尋人</string>
+    <string name="loginNow">您已經有帳號了嗎? 立即登入</string>
+    <string name="buildname">建立帳號</string>
+    <string name="welcome">歡迎使用PM-to-be</string>
+    <string name="test">免稅入關</string>
+    <string name="picture">拍照</string>
+    <string name="newpic">新增照片</string>
+    <string name="send">傳送</string>
+</resources>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context=".GoogleMapAdd"
+    map:mapType="normal">
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        class="com.google.android.gms.maps.MapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginBottom="5dp"
+                android:text="景點名稱"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/edit景點名稱"
+                android:layout_width="260dp"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:autofillHints=""
+                android:inputType="text"
+                android:hint="請輸入景點名稱"
+                android:textColor="@color/colorBlack"
+                tools:targetApi="o"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginBottom="5dp"
+                android:text="景點描述"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/edit景點描述"
+                android:layout_width="260dp"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:inputType="text"
+               android:hint="請輸入景點描述"
+                android:textColor="@color/colorBlack"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="372dp"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="42dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/btnGM傳送資料"
+                    android:layout_width="116dp"
+                    android:layout_height="38dp"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/ui_fragment_select"
+                    android:text="@string/send"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/btnGM新增照片"
+                    android:layout_width="116dp"
+                    android:layout_height="38dp"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/ui_fragment_select"
+                    android:text="@string/newpic"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/btnGM拍照"
+                    android:layout_width="116dp"
+                    android:layout_height="38dp"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/ui_fragment_select"
+                    android:text="@string/picture"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imgGM圖片"
+                    android:layout_width="213dp"
+                    android:layout_height="200dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@color/colorGray"
+                    android:contentDescription="@string/newpic" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

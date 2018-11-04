@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MemberFragment">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorBlack">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true">
+
+
+            <TextView
+                android:id="@+id/lbl姓名"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/Reciprocity"
+                android:layout_below="@+id/Reciprocity"
+                android:gravity="center"
+                android:textColor="@color/colorWhite"
+                android:textSize="20dp" />
+
+
+            <TextView
+                android:id="@+id/Reciprocity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:textColor="@color/colorWhite"
+                android:text="Reciprocity"
+                android:textSize="30dp" />
+
+            <ImageView
+                android:id="@+id/img尋覓個人照"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="29dp"
+                android:layout_marginTop="63dp" />
+
+            <TextView
+                android:id="@+id/風格"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/img尋覓個人照"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/colorWhite"
+                android:gravity="right"
+                android:text="風格:"
+
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/lbl風格"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignTop="@+id/img尋覓個人照"
+                android:layout_marginEnd="23dp"
+                android:text="風格設定文字"
+                android:textColor="@color/colorWhite"
+                android:textSize="16dp" />
+
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/lbl電話"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/colorWhite"
+                android:gravity="right"
+                android:text="電話:"
+
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/lbl電話"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignStart="@+id/lbl風格"
+                android:layout_marginTop="112dp"
+                android:text="電話設定文字"
+                android:textColor="@color/colorWhite"
+                android:textSize="16dp" />
+
+            <TextView
+
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/lbl工作地區"
+                android:layout_centerHorizontal="true"
+                android:text="工作地區:"
+                android:textColor="@color/colorWhite"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/lbl工作地區"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignStart="@+id/lbl風格"
+                android:layout_marginBottom="127dp"
+                android:text="工作設定文字"
+                android:textColor="@color/colorWhite"
+                android:textSize="16dp" />
+
+
+            <Button
+                android:id="@+id/btn聯繫聊天"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/lbl風格"
+                android:layout_alignParentBottom="true"
+                android:layout_gravity="center"
+                android:layout_marginBottom="71dp"
+                android:background="#00000000"
+                android:text="contact?"
+                android:textColor="@color/colorblue"
+                android:textSize="15dp" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:orientation="vertical">
+
+            <GridView
+                android:id="@+id/SelectImageGridView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:columnWidth="30dp"
+                android:horizontalSpacing="1dp"
+                android:numColumns="3"
+                android:stretchMode="columnWidth"
+                android:background="@color/colorBlack"
+                android:verticalSpacing="2dp" />
+        </LinearLayout>
+    </RelativeLayout>
+</FrameLayout>

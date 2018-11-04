@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical"
+    android:background="@color/colornotBlack"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+ <ImageView
+     android:layout_width="match_parent"
+     android:layout_height="350dp"
+     android:layout_alignParentStart="true"
+     android:layout_alignParentTop="true"
+      android:src="@drawable/kkkk" />
+
+
+ <TextView
+     android:id="@+id/lblpm"
+     android:layout_width="176dp"
+     android:layout_height="72dp"
+     android:layout_above="@+id/btn建立帳號"
+     android:layout_centerHorizontal="true"
+     android:layout_marginBottom="28dp"
+     android:gravity="center"
+     android:text="Pm To Be"
+     android:textColor="@color/colorWhite"
+     android:textSize="30sp" />
+
+ <Button
+     android:id="@+id/btn免稅入關"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_alignParentEnd="true"
+     android:layout_alignParentTop="true"
+     android:layout_marginEnd="22dp"
+     android:layout_marginTop="44dp"
+     android:layout_weight="1"
+     android:background="@color/colornotBlack"
+     android:textColor="@color/colorWhite"
+     android:textSize="18sp" />
+ <!--  android:background="@drawable/ui_fragment_select"-->
+ <Button
+     android:id="@+id/btn建立帳號"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_alignParentBottom="true"
+     android:layout_centerHorizontal="true"
+     android:layout_marginBottom="57dp"
+     android:layout_weight="1"
+     android:background="@color/colornotBlack"
+     android:text="Sign Up"
+     android:textColor="@color/colorWhite"
+     android:textSize="18sp" />
+ <!--  android:background="@drawable/ui_fragment_select"-->
+ <Button
+     android:id="@+id/btn已有帳號登入"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_alignParentBottom="true"
+     android:layout_centerHorizontal="true"
+     android:layout_weight="1"
+     android:background="@color/colornotBlack"
+     android:text="Log In"
+     android:textColor="@color/colorWhite"
+     android:textSize="18sp" />
+</RelativeLayout>

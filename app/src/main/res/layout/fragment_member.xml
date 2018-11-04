@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBlack"
+    tools:context=".MemberFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="125dp"
+        android:layout_marginTop="21dp"
+        android:text="會員中心"
+        android:textColor="@color/colorWhite"
+        android:textSize="30dp" />
+
+
+    <Button
+        android:id="@+id/btn會員資料"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="76dp"
+        android:background="#00000000"
+        android:text="個人資料"
+        android:textColor="@color/colorWhite"
+        android:textSize="30dp" />
+
+
+    <Button
+        android:id="@+id/btn服務條款"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/btn會員資料"
+        android:layout_marginTop="153dp"
+        android:background="#00000000"
+        android:text="服務條款"
+        android:textColor="@color/colorWhite"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/btn問題回報"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/btn會員資料"
+        android:layout_marginTop="221dp"
+        android:background="#00000000"
+        android:text="問題回報"
+        android:textColor="@color/colorWhite"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/btn聯絡我們"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/btn會員資料"
+        android:layout_marginBottom="227dp"
+        android:background="#00000000"
+        android:text="聯絡我們"
+        android:textColor="@color/colorWhite"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/btn版本"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="158dp"
+        android:background="#00000000"
+        android:text="版本"
+        android:textColor="@color/colorWhite"
+        android:textSize="30dp" />
+
+
+</RelativeLayout>
